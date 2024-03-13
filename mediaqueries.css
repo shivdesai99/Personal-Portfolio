@@ -5,10 +5,18 @@
   }
   .about-containers {
     flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+    flex: 1 1 200px; /* Adjust basis as needed and ensure it has a flex-grow and flex-shrink */
+    margin-bottom: 1rem;
   }
   #contact,
   #projects {
     height: fit-content;
+    margin-top: 2rem;
   }
 }
 
